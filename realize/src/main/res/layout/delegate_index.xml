@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/timg"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/index_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/index_toolbar"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/index_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bule">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35sp"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="课表"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/index_bwl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20sp"
+                    android:gravity="center"
+                    android:text="备忘录"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+    </RelativeLayout>
+
+
+</RelativeLayout>

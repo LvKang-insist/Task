@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">coke_clothing</string>
+    <string name="search">{fa-search}</string>
+    <string name="home">点击进行搜索</string>
+</resources>

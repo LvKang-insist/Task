@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="设置"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:gravity="center"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/up_passwrod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入原始账号"
+        android:theme="@style/MyEditText"
+        android:inputType="textPassword" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/up_passwrodT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入生日"
+        android:theme="@style/MyEditText"
+        android:inputType="textPassword" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/up_xin_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入新的密码"
+        android:theme="@style/MyEditText"
+        android:inputType="textPassword" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/dialog_quxiao"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="取消"
+            android:gravity="center"
+            android:layout_marginLeft="50dp"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_gravity="left"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/dialog_queding"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="确定"
+            android:layout_gravity="right"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:gravity="center"
+            tools:ignore="RtlHardcoded" />
+
+    </RelativeLayout>
+
+</LinearLayout>

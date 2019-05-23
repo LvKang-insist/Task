@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/item_bwl_bg"
+        android:layout_width="10dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/item_bwl_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="8"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/item_bwl_back"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="false"
+        android:gravity="center">
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="{fa-minus}" />
+    </LinearLayout>
+</LinearLayout>
+
